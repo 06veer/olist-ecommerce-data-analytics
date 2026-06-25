@@ -261,4 +261,4 @@ The project uses publicly available Olist data. Some original labels remain in n
 ## Disclaimer
 This project is for educational purposes only. The author is not affiliated with Olist or any of its subsidiaries. The dataset is publicly available on Kaggle, and the analysis is intended to demonstrate data cleaning, merging, and visualization techniques.
 
-```````````Made with ❤️  by [(Veeraditya Sutagatti)](https://github.com/06veer)
+## Made with ❤️  by [(Veeraditya Sutagatti)](https://github.com/06veer)
