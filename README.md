@@ -219,6 +219,7 @@ The geolocation export keeps the latitude and longitude fields available for map
 ## Power BI Snippets
 
 The exported CSV files are designed to be reused in Power BI. A few practical ways to build on them are:
+![Power BI Example](./powerbi/image.png)
 
 - KPI cards for total orders, delivered orders, canceled orders, and total revenue.
 - Bar charts for top product categories by revenue and top customer states by order count.
