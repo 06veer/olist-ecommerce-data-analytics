@@ -207,6 +207,8 @@ The geolocation export keeps the latitude and longitude fields available for map
 - regional distribution views,
 - customer concentration analysis.
 
+ - we were not able to add the map visualization in the notebook itself because seaborn and matplotlib do not support geospatial mapping. The exported geolocation table was intended to be used in Power BI but due to security restrictions we weren't allowed to include map visuals in power Bi.
+
 ## How to run the notebook
 
 1. Open [olist_ecommerce_data_analysis.ipynb](olist_ecommerce_data_analysis.ipynb).
@@ -224,6 +226,8 @@ The exported CSV files are designed to be reused in Power BI. A few practical wa
 - Map or heatmap visuals using `geolocation_lat` and `geolocation_lng` from the geolocation export.
 - Delivery performance visuals based on `delivery_time_days` and `delivery_delay_days`.
 - Review analysis charts using the `review_category` field.
+
+- Please check out Power BI's work  which is located in the repo under the folder name "powerbi" 
 
 Example Power BI measures you could create from the cleaned data:
 
@@ -251,3 +255,9 @@ This project analyzes Olist e-commerce order behavior, customer geography, produ
 ## Data disclaimer
 
 The project uses publicly available Olist data. Some original labels remain in normalized business form where they are already English-friendly or part of the original dataset naming convention.
+
+
+## Disclaimer
+This project is for educational purposes only. The author is not affiliated with Olist or any of its subsidiaries. The dataset is publicly available on Kaggle, and the analysis is intended to demonstrate data cleaning, merging, and visualization techniques.
+
+```````````Made with ❤️  by [(Veeraditya Sutagatti)](https://github.com/06veer)
